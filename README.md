@@ -1,4 +1,7 @@
 # Persons Counting by Head Detection in Real Time
+
+**Dataset**: [Positives and Negatives of Human Head](https://drive.google.com/open?id=1sB5dd80nKDvHIZsu_FDVvdekAVaxxnms)
+
 Persons counting in real-time is achieved by mainly two steps, head detection and tracking the detected heads for exact count. 
 
 Head detection is achieved by building a head detector. Our head detector contains combination of two classifiers. The two classifiers are trained using two different features, Haar and histogram of oriented gradients features (HOG) separately. Both the classifiers are trained by adaboost learning algorithm. Haar-like features are fast to compute but have low detection accuracy and HOG features have high detection accuracy but slow computation speed. Hence, using these two features, the detector can have high accuracy and fast speed. Fast speed gives the advantage of detecting heads in real-time. 
